@@ -1,0 +1,166 @@
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-number {
+  font-size: 16px;
+  color: black;
+}
+
+.hero {
+  background: url("https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  display: inline;
+  padding: 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.hero p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.service {
+  text-align: center;
+  width: 20%;
+}
+
+.service img {
+  width: 100px;
+  height: 100px;
+}
+.content {
+  display: inline;
+  width: 50%;
+  float: left;
+  padding: 30px;
+  margin: 30px;
+}
+button {
+  width: 113px;
+  height: 41px;
+  box-shadow: 2px 2px 0px 0px;
+}
+.image8 {
+  display: inline-block;
+  margin-top: 100px;
+  padding-left: 10%;
+}
+.footer {
+  background-color: #e5e5e5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.works {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+  gap: 20px;
+}
+
+.work {
+  width: 32%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.work img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.work h2 {
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.work small {
+  display: block;
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.work h3 {
+  font-size: 18px;
+  color: #0073e6;
+  margin-top: 10px;
+}
+
+.work p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .work {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+    flex: 1 1 100%;
+  }
+}
